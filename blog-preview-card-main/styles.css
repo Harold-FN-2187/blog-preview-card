@@ -31,6 +31,7 @@ body
     max-width: 23.438rem;
     transition: box-shadow 0.2s;
     padding:clamp(0.938rem, 1.25rem, 1.875rem);
+   
 
     /* TODO: Adjust padding of Wrapper */
 }
@@ -46,7 +47,7 @@ body
     margin-block-end:1.25rem ;
     width: 100%;
     border-radius: 1.25rem;
-    background-color: white;
+    background-color: turquoise;
 }
 
 .img-top 

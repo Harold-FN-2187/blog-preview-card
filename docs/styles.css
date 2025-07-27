@@ -26,10 +26,14 @@ body
 {
   display: flex;
   flex-direction:column;
+  justify-content: center;
   background-color: var(--white);
   padding: 20px;
+  margin:10px;
   margin-block-end: 20px;
   transition: box-shadow 0.5s;
+  border-radius: 20px;
+  width: 350px;
  
     
 }
@@ -38,12 +42,29 @@ body
     box-shadow: 10px 10px;
 }
 
+.img-top {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 button {
     background-color: var(--yellow);
     font-weight: bold;
     padding:10px;
+    border: none;
+    border-radius: 5px;
 }
 
+.author {
+    /* background-color: teal; */
+    display: flex;
+}
+
+.author h3 {
+    /* background-color: rebeccapurple; */
+    margin-left: 15px;
+
+}
 
 .attribution 
 {

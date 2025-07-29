@@ -61,7 +61,7 @@ button {
     display: flex;
 }
 
-.author h2 {
+.author h1 {
     /* background-color: rebeccapurple; */
     margin-inline-start: clamp(0.938rem,0.938rem,0.942rem);
 
